@@ -1,0 +1,31 @@
+.Inputbar{
+    width: 80vw;
+    background-color: rgb(180, 207, 255);
+    color: #01236a;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.4rem;
+    display: inline-flex;
+}
+
+.Input{
+    width: 100%;
+    background-color: #fff;
+    padding: 0.275em;
+    height: 2rem;
+    align-content: center;
+    color: #01236a;
+    border-color: #01236a;
+    border-radius: 25px;
+transition: box-shadow 500ms;
+}
+
+.Input:focus{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.43);
+
+}
+.searchInput{
+    border-color: #01236a;
+    border-radius: 25px;
+    height: 2rem;
+}

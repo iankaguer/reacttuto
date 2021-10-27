@@ -1,0 +1,30 @@
+.item{
+    border-radius: 15px;
+    padding: 0.055em;
+    margin: 1em;
+    box-shadow: 0 3px 5px #d5d5d5;
+    text-align: start;
+    width: auto;
+    color: #01236a;
+    background-color: #ffffff;
+    display: flex;
+}
+.title{
+    font-family: "Lato";
+    letter-spacing: 0.001em;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.2em;
+    padding: 0.5em;
+
+}
+.caption{
+    padding: 0.5em;
+    margin: 0;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.itemContent{
+   width: calc(100vw - 30px);
+}

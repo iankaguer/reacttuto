@@ -1,0 +1,42 @@
+.checkbox{
+    width: 25px;
+    height: 25px;
+    margin: 0.7em;
+    border-radius: 8px;
+    float: right;
+    z-index: 10;
+}
+
+.checked:before{
+    content: "";
+    color: #282c34;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 3px  solid #01236a;
+    width: 25px;
+    height: 25px;
+    margin:  0 auto;
+    border-radius: 8px;
+    display: inline-flex;
+    background-color: #fff;
+    transition: background-color 500ms;
+}
+
+.unchecked:before{
+    color: #ffffff;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 3px  solid #01236a;
+    width: 25px;
+    height: 25px;
+    content: "\2713";
+    margin:  0 auto;
+    border-radius: 8px;
+    display: inline-flex;
+    background-color: #01236a;
+    transition: background-color 500ms;
+}
+

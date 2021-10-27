@@ -1,0 +1,23 @@
+.head{
+    width: 100vw;
+    height: 8vh;
+    color: #fff;
+    background-color: #01236a;
+    justify-content: space-between;
+    align-content: center;
+    display: inline-block;
+}
+
+.headt{
+
+    background-color: #fff;
+    top: 0;
+    padding: 0.5em;
+    width: 1em;
+    height: 1em;
+    align-content: center;
+    position: absolute;
+    color: #01236a;
+    border-radius: 50%;
+
+}
