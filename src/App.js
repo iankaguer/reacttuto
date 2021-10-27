@@ -5,13 +5,15 @@ import Footer from "./Component/Footer/Footer";
 import Header from "./Component/Header/Header";
 import Search from "./Component/Search/Search";
 
-function App() {
+function App(props) {
+
+
   return (<div className="App">
       <Header/>
       <div>
           <Search/>
       </div>
-      <div>
+      <div className="body">
           <Item/>
       </div>
 

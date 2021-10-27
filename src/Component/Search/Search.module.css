@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-content: center;
     padding: 0.4rem;
+    margin: 0 auto;
     display: inline-flex;
 }
 
@@ -13,8 +14,6 @@
     color: #fff;
     padding: 0.275em;
     height: 2rem;
-    align-content: center;
-    background-color: #01236a;
     border-radius: 25px;
 
 }
@@ -25,7 +24,17 @@
 }
 
 .searchInput{
-    border-color: #01236a;
-    border-radius: 25px;
     height: 2rem;
+}
+
+.Inputbar{
+    width: 75vw;
+    background-color: rgb(180, 207, 255);
+    color: #01236a;
+    padding: 0.4rem;
+    display: inline-flex;
+}
+.searchButton{
+    width: 20vw;
+    padding: 0.4rem;
 }

@@ -1,17 +1,10 @@
-.Inputbar{
-    width: 80vw;
-    background-color: rgb(180, 207, 255);
-    color: #01236a;
-    justify-content: space-between;
-    align-content: center;
-    padding: 0.4rem;
-    display: inline-flex;
-}
 
 .Input{
     width: 100%;
+    font-family: "Lato", serif;
     background-color: #fff;
-    padding: 0.275em;
+    font-weight: normal;
+    padding: 0.275em 0.275em 0.275em 1em;
     height: 2rem;
     align-content: center;
     color: #01236a;

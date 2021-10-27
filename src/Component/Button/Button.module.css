@@ -1,18 +1,14 @@
 
 
 .button{
-
+    font-family: "Lato", serif;
     color: #fff;
-    padding: 0.275em;
-    width: auto;
-    height: 2rem;
-    align-content: center;
+    padding: 0.75em;
+    width: 100%;
+
     background-color: #01236a;
     border-radius: 25px;
 
 }
 
-.searchButton{
 
-
-}

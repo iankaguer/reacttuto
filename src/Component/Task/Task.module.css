@@ -1,0 +1,15 @@
+
+
+.task{
+    font-family: "Lato", serif;
+    color: #fff;
+    margin: 0.75em;
+    width: 100vw;
+    height: auto;
+    overflow-y: scroll;
+    display: flex;
+    position: relative;
+
+}
+
+
