@@ -7,6 +7,7 @@
     width: 100vw;
     height: auto;
     overflow-y: scroll;
+    background-color: #01236a;
     display: flex;
     position: relative;
 

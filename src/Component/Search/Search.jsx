@@ -14,20 +14,19 @@ export default function Search(props) {
         if (inputValue === "")
             return;
         setListItem([...listItem, [{"title":inputValue, "priority":radioState}]])
-        console.log(listItem)
+        props.parentCallback(listItem)
     }
     let handleOptionChange= (changeEvent) =>{
         setRadioState( changeEvent);
     }
 
-
-
-        return (<div>
-            <div className={style.searchbar}>
-                <div className={style.Inputbar}><Input onChange={handleChange}/> </div>
-                <div className={style.searchButton}><Button onClick={handleClick}/></div>
-            </div>
-            <ButtonRadio onChange={handleOptionChange}/>
+    return (
+    <div>
+        <div className={style.searchbar}>
+            <div className={style.Inputbar}><Input onChange={handleChange}/> </div>
+            <div className={style.searchButton}><Button onClick={handleClick}/></div>
         </div>
+        <ButtonRadio onChange={handleOptionChange}/>
+    </div>
     );
 }

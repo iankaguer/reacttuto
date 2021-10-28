@@ -6,8 +6,6 @@ export default function Input(props) {
         props.onChange(e.target.value)
     }
 
-
-
     return (
         <input type="text" name="addItem" className={style.Input} onChange={handleAddItem}/>
    );

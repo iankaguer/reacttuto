@@ -26,6 +26,7 @@
 
 .unchecked:before{
     color: #ffffff;
+    font-size: 1.3em;
     align-items: center;
     align-content: center;
     justify-content: center;
