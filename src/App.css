@@ -1,12 +1,29 @@
 .App {
   text-align: center;
   box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
 
 }
-div{
-  width: 100vw;
-  box-sizing: content-box;
-  margin: 0;
+
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  width: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #01236a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #001134;
 }
 
 .App-logo {

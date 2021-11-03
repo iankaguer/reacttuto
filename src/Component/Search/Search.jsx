@@ -13,7 +13,7 @@ export default function Search(props) {
     const handleClick = (v)=> {
         if (inputValue === "")
             return;
-        setListItem([...listItem, [{"title":inputValue, "priority":radioState}]])
+        setListItem([...listItem, {"title":inputValue, "priority":radioState, "tdate": ""}])
         props.parentCallback(listItem)
     }
     let handleOptionChange= (changeEvent) =>{
@@ -21,7 +21,7 @@ export default function Search(props) {
     }
 
     return (
-    <div>
+    <div className={style.searchGroup}>
         <div className={style.searchbar}>
             <div className={style.Inputbar}><Input onChange={handleChange}/> </div>
             <div className={style.searchButton}><Button onClick={handleClick}/></div>

@@ -12,14 +12,13 @@
 }
 .buttongroup{
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: bold;
-    width: 100vw;
-    background-color: rgb(180, 207, 255);
+    max-width: 100%;
+    width: 100%;
+
     padding: 0.5em;
     font-family: "Lato", serif;
-    justify-content: center;
-    align-content: center;
     display: flex;
 }
 

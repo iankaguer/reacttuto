@@ -29,3 +29,17 @@
 .itemContent{
    width: calc(100vw - 30px);
 }
+
+.normal{
+    background : #b6ff93;
+    border-bottom: thick double #32a1ce;
+}
+.high{
+    background : #fdacac;
+    border-bottom: thick double #32a1ce;
+}
+.low{
+    background : #cffced;
+    border-bottom: thick double #32a1ce;
+}
+

@@ -1,21 +1,15 @@
-import './App.css';
+import style from './App.css';
 import "./Component/Header/Header.module.css"
-import Item from "./Component/Item/Item";
 import Footer from "./Component/Footer/Footer";
 import Header from "./Component/Header/Header";
-import Search from "./Component/Search/Search";
+import Task from "./Component/Task/Task";
 
 function App(props) {
 
 
-  return (<div className="App">
+  return (<div className={style.App}>
       <Header/>
-      <div>
-          <Search/>
-      </div>
-      <div className="body">
-          <Item/>
-      </div>
+      <Task/>
 
       <Footer/>
         </div>)
